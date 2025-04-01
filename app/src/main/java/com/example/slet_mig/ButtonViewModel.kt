@@ -1,5 +1,8 @@
 package com.example.slet_mig
 
-class ButtonViewModel {
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
 
+class ButtonViewModel {
+    val text by mutableStateOf("asd")
 }
