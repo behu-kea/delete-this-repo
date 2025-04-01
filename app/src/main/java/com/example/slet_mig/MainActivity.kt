@@ -26,6 +26,12 @@ class MainActivity : ComponentActivity() {
             }) {
                 Text(text = "click me!!")
             }
+
+            Button(onClick = {
+                print("new button!!!!")
+            }) {
+                Text(text = "New button")
+            }
         }
     }
 }
